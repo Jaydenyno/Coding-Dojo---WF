@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* style very top pink bar*/
+.top-bar {
+    background-color: #c27ba0;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+/* style second white bar with name of website, search bar, and cart */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-bar h1 {
+    font-size: 40px;
+}
+.search-bar input {
+    height: 30px;
+    width: 500px;
+    border: 3px solid black;
+}
+.search-bar p {
+    display: flex;
+    align-items: center;
+}
+.search-bar img {
+    width: 40px;
+}
+
+/* style third grey bar with list of choices */
+.list-bar {
+    background-color: #dddddd;
+    color: black;
+    padding: 20px 0px;
+}
+.list-bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-bar li {
+    margin: 0px 15px;
+    font-size: 20px;
+}
+
+/* ----------------style main------------------*/
+.main {
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-name{
+    /* style big pink box with name Plushy Store within main */
+    background-color: #c27ba0;
+    padding: 40px 0px;
+    margin: 20px 0px 40px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.main-info {
+    /* style # of products, sorted and sort by */
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.item-list {
+    /* style box with list of items within main */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-box img {
+    /* resizing all product image within item list */
+    width: 160px;
+}
+.item-box  {
+    /* centering all image, name, and buy button within the item box */
+    text-align: center;
+}
+.item-box p {
+    /* spacing out top and bottom and adjusting font size of all name without item box */
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.item-box button {
+    /* adjusting color, font size, corner smoothness, and actual size of all buttons within item box */
+    background-color: #c27ba0;
+    color: white;
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+}

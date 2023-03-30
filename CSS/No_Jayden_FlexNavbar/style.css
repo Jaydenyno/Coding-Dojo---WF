@@ -1,0 +1,13 @@
+
+
+.nav {
+    display: flex;
+    border: 2px black;
+    background-color: grey;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

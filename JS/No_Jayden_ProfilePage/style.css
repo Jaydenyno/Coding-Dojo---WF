@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+/* top black bar */
+.nav-top {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+/* list within nav-top-left */
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin: 0px 5px;
+}
+/* Sign out button at right of black bar */
+.nav-top-right button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 16px;
+}
+
+
+/* main container */
+.nav-main {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* left col of main */
+.main-left {
+    padding: 20px 0px;
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
+}
+/* First content-user card at left col of main*/
+.user-card {
+    background-color: white;
+    margin: 40px 0px;
+    border: 2px solid black;
+}
+/* top bar of user card */
+.user-card-top {
+    height: 50px;
+    background-color: red;
+}
+.user-card-top img {
+    position: relative;
+    width: 50px;
+}
+.user-card-main {
+    padding: 20px 20px;
+}
+.user-card-main img {
+    width: 20px;
+}
+
+/* Second content-education card at left col of main */
+.education-card {
+    background-color: white;
+    margin: 40px 0px;
+    height: 500px;
+}
+
+/* right col of main */
+.main-right {
+    margin: 0px 20px;
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+}

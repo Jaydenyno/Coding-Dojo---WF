@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav_top {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_top_left {
+    padding-left: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.nav_top_right {
+    margin-left: 800px;
+    background-color: lightskyblue;
+}
+
+
+
+.nav_main{
+    display: flex;
+    vertical-align: top;
+    justify-content: space-around;
+
+}
+
+.main_left {
+    padding: 20px 0px;
+    width: 500px;
+    height: 1000px;
+    /* background-color: red; */
+}
+.user_card_container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.user_card_top {
+    height: 20%;
+    background-color: lightskyblue;
+}
+.user_circle_image {
+    height: 100%;
+    position: relative;
+    margin-left: 40px;
+    top: 50%;
+}
+.user_card_bottom {
+    height: 80%;
+    background-color: white;
+    padding: 30px 0px 0px 30px;
+}
+.user_card_bottom h1, 
+.user_card_bottom h2, 
+.user_card_bottom h3 {
+    margin: 10px 0px;
+}
+.map_marker_image {
+    height: 26px;
+}
+.gear_image {
+    height: 17px;
+}
+.education_card_container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.education_card_top {
+    padding-left: 20px;
+    height: 20%;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+.education_card_bottom {
+    padding: 20px;
+    background-color: white;
+    height: 80%;
+    overflow: hidden;
+}
+.education_card_bottom h1, 
+.education_card_bottom h2, 
+.education_card_bottom h3 {
+    margin: 10px 0px;
+}
+.education_card_top h1 {
+    margin-top: 10px;
+}
+
+.main_right{
+    padding: 20px 0px;
+    width: 300px;
+    height: 1000px;
+}
+.connection_request_container {
+    margin: 20px 0px;
+    height: 200px;
+    border: 2px solid black;
+}
+.your_connection_container {
+    margin: 20px 0px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.connection_request_top {
+    height: 40%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.request_circle {
+    width: 40px;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 25px;
+}
+.connection_request_bottom {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.connection_request_bottom img {
+    height: 40px;
+}
+.request_bottom_right {
+    width: 80px;
+}
+
+.your_connection_top {
+    height: 15%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.connection_circle {
+    width: 40px;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 25px;
+}
+.your_connection_middle {
+    height: 60%;
+    padding-top: 20px;
+    text-align: left;
+    overflow: hidden;
+    vertical-align: center;
+}
+.your_connection_middle img {
+    height: 50px;
+}
+.your_connection_bottom {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 10%;
+    overflow: hidden;
+    border:2px black;
+}

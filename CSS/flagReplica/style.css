@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.white {
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+
+.redHalf {
+    background-color: red;
+    border-radius: 150px 150px 0px 0px;
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.red {
+    background-color: red;
+    height: 100px;
+    width: 300px;
+}
+
+.whiteHalf{
+    background-color: white;
+    border-radius: 0px 0px 150px 150px;
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+}

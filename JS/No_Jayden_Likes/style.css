@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* top black bar */
+.first-bar {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+/* second white bar with "Your Feed" */
+.second-bar {
+    background-color: grey;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* main that contains col left and col right */
+.main {
+    height: auto;
+    display: flex;
+    gap: 100px;
+}
+
+/* col left */
+.main-left {
+    width: 30%;
+}
+/* first content container for col left */
+.name-avatar-container {
+    margin: 30px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    border: 2px solid black;
+}
+.name-avatar-container a {
+    margin: 10px 10px;
+    display: block;
+}
+.main-left img {
+    width: 40%;
+    background-color: white;
+}
+
+/* col right */
+.main-right {
+    width: 80%;
+}
+#friend-box {
+    margin: 30px 0px;
+    padding: 10px 10px;
+    border: 2px solid black;
+}
+.friend-box-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.friend-box-top p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#likeButton {
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+}

@@ -1,0 +1,20 @@
+.search, .add, .create_account {
+    margin-top: 20px;
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.search {
+    color: green;
+    background-color: rgb(228, 218, 218);
+    border-radius: 50px;
+    border: 2px solid green;
+}
+
+.add {
+    border-radius: 50%;
+    height: 50px;
+    background-color: aquamarine;
+    border: aquamarine;
+}

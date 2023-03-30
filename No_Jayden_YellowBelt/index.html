@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plush Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- very top pink bar -->
+    <div class="top-bar">
+        <h2>FREE PHONE GRIP ON SELECT PURCHASES</h2>
+    </div>
+
+    <!-- second bar with name of the website, search bar, and cart icon -->
+    <div class="search-bar">
+        <h1>PlushStar</h1>
+        <input type="text" placeholder="Search">
+        <p><span id="cart-count">0</span> <img src="cart-dark.png" alt="cart-image"></p>
+    </div>
+
+    <!-- thrid bar with list of choice -->
+    <div class="list-bar">
+        <ul>
+            <li>Home</li>
+            <li>New</li>
+            <li>Products</li>
+            <li>Sales</li>
+            <li>Blog</li>
+            <li onclick="alertContactUs()">Contact Us</li>
+        </ul>
+    </div>
+
+    <!-- big space for main contents -->
+    <div class="main">
+
+        <!-- big pink box with name Plushy Store within main -->
+        <div class="main-name">
+            <h1>Plush Store</h1>
+        </div>
+
+        <!-- # of products, sorted and sort by -->
+        <div class="main-info">
+            <p>62 Products, sorted by <span id="current-type">Best Selling</span></p>
+            <P>Sort By
+                <select name="sort-types" id="sort-types">
+                    <option onclick="sortedBy(this)" id="option1">Best Selling</option>
+                    <option onclick="sortedBy(this)" id="option2">Price Up</option>
+                    <option onclick="sortedBy(this)" id="option3">Price Down</option>
+                </select>
+            </P>
+        </div>
+
+        <!-- box with list of items within main -->
+        <div class="item-list">
+            <div class="item-box" id="item1">
+                <img src="product-image.png" alt="product-image">
+                <p>Mischief Mouse</p>
+                <button onclick="pressBuyNumPlus('#cart-count')">Buy</button>
+            </div>
+            <div class="item-box" id="item2">
+                <img src="product-image.png" alt="product-image">
+                <p>Shy Shrew</p>
+                <button onclick="pressBuyNumPlus('#cart-count')">Buy</button>
+            </div>
+            <div class="item-box" id="item3">
+                <img src="product-image.png" alt="product-image">
+                <p>Hangry Hamster</p>
+                <button onclick="pressBuyNumPlus('#cart-count')">Buy</button>
+            </div>
+            <div class="item-box" id="item4">
+                <img src="product-image.png" alt="product-image">
+                <p>Chilly Chinchillo</p>
+                <button onclick="pressBuyNumPlus('#cart-count')">Buy</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
